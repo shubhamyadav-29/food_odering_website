@@ -1,0 +1,66 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f3f4f6;
+}
+
+.login-form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form input {
+  width: 100%;
+  /* top | right | bottom | left */
+  padding: 14px 0px ;
+  margin: 8px 0px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background: #4338ca;
+}
+
+.login-form p {
+  margin-top: 15px;
+}
+
+.login-form a {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}
+
+input::placeholder {
+  color: #999;        /* Light gray color for better visibility */
+  font-size: 14px;    /* Adjust size to match input text */
+  font-weight: 400;   /* Optional: make it normal weight */
+  opacity: 1;         /* Ensure it’s fully visible */
+  padding-left: 5px;  /* Optional: small padding inside input */
+}

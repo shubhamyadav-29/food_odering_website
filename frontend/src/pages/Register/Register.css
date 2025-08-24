@@ -1,0 +1,82 @@
+/* Container */
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card */
+.register-form {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+/* Heading */
+.register-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.register-form input {
+  width: 100%;
+  /* top | right | bottom | left */
+  padding: 12px 6px;
+  margin: 9px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.register-form input:focus {
+  border-color: #ff416c;
+  box-shadow: 0 0 6px rgba(255, 65, 108, 0.4);
+}
+
+/* Button */
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background: #ff416c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.register-form button:hover {
+  background: #e62e56;
+  transform: translateY(-2px);
+}
+
+/* Link */
+.register-form p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.register-form a {
+  color: #ff416c;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.register-form a:hover {
+  text-decoration: underline;
+}
